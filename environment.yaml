@@ -3,16 +3,15 @@ channels:
   - pytorch
   - defaults
 dependencies:
-  - python=3.8.5
-  - pip=20.3
-  - cudatoolkit=11.3
-  - pytorch=1.11.0
-  - torchvision=0.12.0
-  - numpy=1.19.2
+  - python
+  - pip
+  - pytorch
+  - torchvision
+  - numpy
   - pip:
     - albumentations==0.4.3
     - diffusers
-    - opencv-python==4.1.2.30
+    - opencv-python
     - pudb==2019.2
     - invisible-watermark
     - imageio==2.9.0
